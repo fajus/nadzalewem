@@ -1,0 +1,521 @@
+/* reset marginesów oraz dope³nieñ */
+html, body, ul, li { margin: 0; padding: 0;}
+
+/* reset wysokoœci linii i fontu */
+h1, h2, h3, h4, h5, ul, li, p { margin: 0; padding: 0; font-size: 13px; }
+
+/* ustawienia globalne */
+body { font: 13px  Tahoma, Verdana, Arial, Georgia,  sans-serif; color: #8a8a8a; background: #f4f4f4;}
+
+/* resetowanie a */
+a {text-decoration: none; color: #8a8a8a;}
+
+/* resetowanie ramek obrazków */
+a img {border: none;}
+
+/* -------- STRONA GLÓWNA -------- */
+.container {
+	width: 880px;
+	position: relative;
+	margin: 0 auto;
+	}
+	
+.fb-like {	margin: 74px 0 0 0px;
+			float: left;
+			z-index: 100;}
+	
+#header {
+	width: 100%;
+	height: 59px;
+	background: url(images/tlo_header.jpg) repeat-x;
+	}
+
+#header ul{
+	position: absolute;
+	width: 700px;
+	height: 37px;
+	margin: 22px 0px 0px 200px;
+	list-style: none;
+	}
+	
+
+	
+/* menu */
+#header ul li {
+	width: 96px;
+	float: left;
+	overflow: hidden;
+	padding-right: 10px;
+	padding-left: 8px;
+	background: url(images/separator.gif) no-repeat right;
+	}
+	
+#header ul li:last-child {
+	background: none;
+	}
+
+#header ul li span {
+	display: block;
+	width: 96px;
+	height: 37px;
+	}
+	
+#header ul li a {
+	display: block;
+	width: 96px;
+	height: 37px;
+	font-family: arial;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 8px;
+	}
+	
+#header ul li a:hover, #header ul li .active {
+	display: block;
+	width: 96px;
+	height: 37px;
+	background: url(images/button_menu_a.jpg) no-repeat;
+	color: #20374b;
+	}
+    
+ #header ul li a.wazne{
+   color: #d4ce2f;    
+ }
+ 
+ #header ul li a.wazne:hover{
+   color: #20374b;    
+ }
+	
+/* jezyk */
+#header ul.jezyk{
+	width: 170px;
+	margin: 22px auto;
+	}
+	
+#header ul.jezyk li {
+	width: 36px;
+	}
+
+#header ul.jezyk li.zero {
+	padding-left: 0px;
+	}
+
+#header ul li:last-child {
+	background: none;
+	}
+
+#header ul.jezyk li span {
+	width: 36px;
+	}
+	
+#header ul.jezyk li a {
+	width: 36px;
+	}
+	
+#header ul.jezyk li a:hover, #header ul li .active.jezyk {
+	width: 36px;
+	background: url(images/button_maly.jpg) no-repeat;
+	}
+
+/* slogan */
+#slogan .container {
+	height: 273px;
+	}
+/* left */
+#slogan {
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 273px;
+	background: url(images/tlo_slogan.jpg) repeat-x;
+	overflow: hidden;
+	}
+	
+#slogan #opis {
+	position: relative;
+	margin-top: 45px;
+	width: 311px;
+	height: 200px;
+	}	
+
+#slogan #opis h1 {
+	display: block;
+	width: 311px;
+	height: 103px;
+	background: url(images/tytul_slogan.png) no-repeat;
+	text-indent: -777em;
+	}
+
+#slogan #opis h1.de {
+	background: url(images/de_tytul_slogan.png) no-repeat;
+	}	
+	
+#slogan #opis span{
+	margin-left: 3px;
+	display: block;
+	width: 304px;
+	margin-top: -1px;
+	color: #FFF;
+	font-family: arial;
+	font-size: 14px;
+	text-align: justify;
+	}
+
+#slogan #opis span .zapraszamy{
+	text-align: right;
+	}
+/* right */
+#slogan #zdjecie {
+	position: relative;
+	margin-top: -220px;
+	margin-right: -10px;
+	float: right;
+	width: 533px;
+	height: 249px;
+	background: url(images/foto_slogan.png) no-repeat;
+	}
+
+#slogan #zdjecie .zdjecia_pokaz {
+	display: block;
+	width: 504px;
+	height: 220px;
+	margin-top: 7px;
+	margin-left: 16px;
+	overflow: hidden;
+	}
+	
+/* main */
+#main .promocja {
+    text-decoration: underline;
+    color: #f30f0f;
+    font-weight: bold;
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+}
+#main .lewa {
+	width: 400px;
+	height: 330px;
+	float: left;
+	background: url(images/tlo_ikony.png) repeat-y;
+	background-position: 62px;
+	}
+	
+#main .prawa {
+	width: 365px;
+	height: 330px;
+	float: right;
+	background: url(images/tlo_ikony.png) repeat-y;
+	background-position: 62px;
+	}
+#main .box {
+	width: 400px;
+	height: auto;
+	}
+#main ul {
+	width: 240px;
+	font-size: 16px;
+	font-family: Verdana;
+	font-weight: Bold;
+	color: #8a8a8a;
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 110px;
+	}
+
+#main ul li{
+	padding-left: 15px;
+	text-align: left;
+	line-height: 20px;
+	background: url(images/strzalka.png) no-repeat;
+	background-position: left 6px;
+	}
+
+#main span.oplata {
+	display: block;
+    width: 580px;
+    margin: 0px auto 0px auto;
+    clear: both;
+	}
+
+    
+#main ul.waznowate {
+    display: block;
+	width: 580px;
+	font-size: 16px;
+	font-family: Verdana;
+	font-weight: Bold;
+	color: #8a8a8a;
+	list-style: none;
+    margin-left: 0px;
+    margin-top: 0px;
+	}
+    	
+#main ul li.waznestrzalka{
+    padding-left: 15px;
+	text-align: left;
+	line-height: 20px;
+	background: url(images/wazne.png) no-repeat;
+    background-position: left 6px;
+	}
+	
+#main {
+	position: relative;
+	margin-top: 300px;
+	}
+	
+#main .box h2{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	color: #4796b1;
+	margin: 10px 0px 0px 100px;
+	}
+	
+/* udogodnienia */
+#main .box.udogodnienia {
+	width: 400px;
+	height: 180px;
+	background: url(images/parasol.png) no-repeat;
+	margin-left: 7px;
+	}
+	
+
+/* pokoje */
+#main .box.pokoje {
+	width: 400px;
+	height: 180px;
+	background: url(images/lozko.png) no-repeat;
+	margin-left: -6px;
+	}
+	
+#main .box.pokoje h2{
+	margin: 10px 0px 0px 113px;
+	}
+
+#main .box.pokoje ul {
+	padding-left: 13px;
+	}
+	
+/* w poblizu */
+#main .box.wpoblizu {
+	width: 320px;
+	height: 180px;
+	background: url(images/kawa.png) no-repeat;
+	margin-left: 1px;
+	}
+	
+/* kontakt */
+#main .box.kontakt {
+	width: 320px;
+	height: 180px;
+	background: url(images/telefon.png) no-repeat;
+	margin-left: -9px;
+	}
+#main .box.kontakt h2{
+	margin: 10px 0px 0px 110px;
+	}
+
+#main .box.kontakt ul {
+	padding-left: 10px;
+	}
+/* footer */
+#footer {
+	position: relative;
+	margin-top: 20px;
+	height: 32px;
+	background: url(images/tlo_footer.png) repeat-x;
+	}
+
+#footer span {
+	display: block;
+	padding-top: 6px;
+	font-family: arial;
+	font-size: 11px;
+	color: #8a8a8a;
+	}
+	
+#footer span a:hover {
+	color: #f2930a; 
+	}
+	
+#footer span #prawo_footer {
+	position: absolute;
+	right: 0px;
+	margin-top: -17px;
+	}
+/* GALERIA */
+#sloganekG {
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 180px;
+	background: url(images/tlo_sloganekG.jpg) repeat-x;
+	overflow: hidden;
+	}
+#galery {
+	position: relative;
+	margin-top: 100px;
+	}
+#galery .container {
+	width: 880px;
+	position: relative;
+	margin: 0 auto;
+	}
+	
+/* right */
+#slogan #zdjecieGal {
+	position: relative;
+	margin-top: -190px;
+	margin-right: 10px;
+	float: right;
+	height: 135px;
+	width: 483px;
+	background: url(images/galeria_kontakt.png) no-repeat;
+	}
+/* OKOLICA */
+#main ul.okolica {
+	width: 800px;
+	margin-left: 118px;
+	}
+#main ul.okolica li{
+	width: 730px;
+	padding-left: 15px;
+	background-position: left 6px;
+	}
+#main .lewa.okolica {
+	width: 800px;
+	height: 410px;
+	background-position: 70px;
+	}
+/* camera */
+#main .box.camera{
+	width: 800px;
+	height: 180px;
+	background: url(images/camera.png) no-repeat;
+	margin-left: -2px;
+	}
+#main .box.camera h2{
+	margin: 10px 0px 0px 110px;
+	}
+	
+/* lornetka */
+#main .box.lornetka {	
+	width: 800px;
+	height: 280px;
+	background: url(images/lornetka.png) no-repeat;
+	}
+#main .box.lornetka h2{
+	margin: 10px 0px 0px 111px;
+	}
+#footer.okolica {
+	margin-top: 750px;
+	}
+/* REGULAMIN */
+/* dzwonek */
+#main .lewa.okolica.dzwonek {
+	width: 880px;
+	height: 430px;
+	background-position: 54px;
+	}
+#main ul.okolica.dzwonek {
+	width: 766px;
+	margin-left: 118px;
+	}
+#main .box.camera.dzwonek{
+	width: 880px;
+	background: url(images/dzwonek.png) no-repeat;
+	margin-left: -1px;
+	}
+	
+/* KONTAKT */
+.container.kontaktor {
+    height: 300px;
+}
+ 
+#main .lewa.kontakt {
+	height: 300px;
+	background-position: 66px;
+	}
+
+#main .lewa.email {
+	width: 800px;
+	height: 300px;
+	background-position: 66px;
+	}
+
+#main .box.kontakt.domek{
+	width: 320px;
+	height: 180px;
+	background: url(images/domek.png) no-repeat;
+	margin-left: 0px;
+	}
+
+
+a:focus { 
+	outline:none; /*usuwanie niebieskiej obwódki w FF*/
+}
+
+
+#formularz {
+	width: 400px;
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+#formularz div {
+	margin-top: 5px;
+}
+
+#formularz label {
+	display: block;
+}
+
+#formularz input[type=text] {
+	width: 400px;
+}
+
+#formularz textarea {
+	min-width: 398px;
+	max-width: 398px;
+	max-height: 150px;
+	min-height: 150px;
+	margin-left: 0px;
+}
+
+
+
+#blad {
+	background: #ff0000;
+	padding: 10px;
+	color: #ffffff;
+	width: 320px;
+	height: 135px;
+	padding: 5px;
+	right: 0px;
+	top: 105px;
+	position: absolute;
+
+}
+
+#blad ul {
+	margin-left: 30px;
+	color: #ffffff;
+}
+
+#sukces {
+	background-color: #248110;
+	color: white;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	top: 140px;
+	left: 300px;
+}
+
+#sukces p{
+
+}
+
+.red {
+	color: #ff0000;
+}
